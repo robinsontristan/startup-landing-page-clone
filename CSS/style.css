@@ -25,10 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 *{
-	font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
-	color: #838994; 
-	letter-spacing: 0.03em;
+	
 }
 
 article, aside, details, figcaption, figure, 
@@ -55,21 +52,51 @@ table {
 }
 
 body {
-    background-color: LightGray;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;    
+	background-color: LightGray;
 }
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover{
+	color: green;
+}
+
 div {
     border: 1px solid Chocolate;
 }
 /* Navigation Section */
+
 .top-navigation {
     background-color: #fff;
 }
 
-.links {
+.introduction{
+	background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+li {
 	float:right;
 	display:inline-block;
 }
 
+.logo {
+	padding: 10px 15px 10px 10px;
+}
+
+.links{
+	border-top: -10px;
+}
 .links:hover{
 	color:green;
 }
@@ -88,4 +115,5 @@ div {
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 600;
+    margin-left: 15px;
 }
