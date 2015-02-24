@@ -65,7 +65,7 @@ a{
 }
 
 a:hover{
-	color: green;
+	color: black;
 }
 
 div {
@@ -94,8 +94,9 @@ ul{
 }
 
 li {
-	float:right;
+
 	display:inline-block;
+	margin-left: 15px;
 }
 
 .logo {
@@ -105,9 +106,7 @@ li {
 .links{
 	border-top: -10px;
 }
-.links:hover{
-	color:green;
-}
+
 
 .top-navigation > .content {
     width: 970px;
@@ -126,3 +125,15 @@ li {
     margin-left: 15px;
 }
 
+.introduction > h1{
+	color: white;
+	font-size: 3.125rem;
+	font-weight: 300;
+}
+
+.introduction > h3{
+	color:white;
+	font-weight: 300;
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
