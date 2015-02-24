@@ -69,8 +69,8 @@ a:hover{
 }
 
 div {
-    border: 1px solid Chocolate;
-}
+/*    border: 1px solid Chocolate;
+*/}
 /* Navigation Section */
 
 .top-navigation {
@@ -82,7 +82,15 @@ div {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+   
+    text-align:center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+ul{
+	float:right;
+	margin: 25px 0px 0px 0px;
 }
 
 li {
@@ -117,3 +125,4 @@ li {
     font-weight: 600;
     margin-left: 15px;
 }
+
