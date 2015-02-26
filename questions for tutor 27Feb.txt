@@ -1,3 +1,5 @@
+Should I be able to push from git gui?
+
 The top nav on the orig Karma site is non-scrolling. How is that accomplished?
 
 Alignment of my top nav is weird. How do I match the orig site?
