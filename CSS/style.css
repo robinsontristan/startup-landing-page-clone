@@ -126,6 +126,10 @@ div {
 
 .top-navigation {
     background-color: #fff;
+    position:fixed;
+    z-index: 9999;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
 }
 
 .introduction{
@@ -139,19 +143,26 @@ div {
     padding-bottom: 250px;
 }
 
-ul{
+
+li{
+	display:inline-block;
+}
+
+ul.links{
 	float:right;
 	margin: 25px 0px 0px 0px;
 }
 
-li {
+ul.links li {
 
 	display:inline-block;
 	margin-left: 15px;
 }
 
+
 .logo {
 	padding: 10px 15px 10px 10px;
+	margin-right: 180px;
 }
 
 .links{
@@ -189,4 +200,32 @@ li {
 	font-weight: 300;
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
+}
+
+.instagram{
+color: #3f729b;
+}
+.facebook{
+color: #4c66a4;
+}
+
+.twitter{
+color: #55acee;
+}
+.social{
+	text-align: center;
+}
+
+.social .icons > li{
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin:1.25rem 5px;
+	border: 1px solid gray;
+	text-align: center;
+}
+.fa {
+	padding-top: 12px;
+	padding-bottom: 10px;
 }

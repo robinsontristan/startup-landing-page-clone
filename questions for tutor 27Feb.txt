@@ -1,0 +1,9 @@
+Should I be able to push from git gui?
+
+The top nav on the orig Karma site is non-scrolling. How is that accomplished?
+
+Alignment of my top nav is weird. How do I match the orig site?
+
+My ul in the middle section (with the 3 images and text) is right-justified and I can't figure out why.
+
+Footer is not working at all.
